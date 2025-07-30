@@ -15,28 +15,29 @@ L’objectif est d’apprendre et d’expérimenter la modélisation mathématiq
 ---
 
 ## 📂 Structure actuelle
+```bash
 .
 ├── algebre
-│ ├── ensemble
-│ │ └── ensemble.go
-│ # Opérations sur les ensembles (union, intersection, etc.)
-│ └── espace_vectorielle
-│ └── espace_vectorielle.go
-│ # Manipulation des espaces vectoriels
+│   ├── ensemble
+│   │   └── ensemble.go
+│   │       # Opérations sur les ensembles (union, intersection, etc.)
+│   └── espace_vectorielle
+│       └── espace_vectorielle.go
+│           # Manipulation des espaces vectoriels
 ├── analyse
-│ ├── equadiff
-│ │ └── equadiff.go
-│ # Résolution équations différentielles
-│ └── trigo
-│ └── trigo.go
-│ # Fonctions trigonométriques
+│   ├── equadiff
+│   │   └── equadiff.go
+│   │       # Résolution équations différentielles
+│   └── trigo
+│       └── trigo.go
+│           # Fonctions trigonométriques
 ├── arithmetique
-│ # Module en préparation
+│   # Module en préparation
 ├── go.mod
-│ # Gestionnaire de modules Go
+│   # Gestionnaire de modules Go
 └── main.go
-# Point d’entrée du projet (exemples/tests)
----
+    # Point d’entrée du projet (exemples/tests)
+
 
 ## ✅ Modules fonctionnels actuels
 
